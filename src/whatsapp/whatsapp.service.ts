@@ -7,6 +7,7 @@ import { executablePath } from 'puppeteer';
 export class WhatsappService implements OnModuleInit {
   private client: Client;
   private readonly logger = new Logger(WhatsappService.name);
+  private qrCode: string;
 
   onModuleInit() {
     this.client = new Client({
@@ -24,6 +25,7 @@ export class WhatsappService implements OnModuleInit {
 
     this.client.on('qr', (qr) => {
       this.logger.log('QR RECEIVED', qr);
+      this.qrCode = qr;
       qrcode.generate(qr, { small: true });
     });
 
@@ -71,5 +73,9 @@ export class WhatsappService implements OnModuleInit {
       this.logger.error('Error sending message', error);
       throw error;
     }
+  }
+
+  getQr(): string {
+    return this.qrCode;
   }
 }
