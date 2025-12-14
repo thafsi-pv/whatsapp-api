@@ -13,8 +13,12 @@ export class WhatsappService implements OnModuleInit {
       authStrategy: new LocalAuth(),
       puppeteer: {
         headless: true,
-        args: ['--no-sandbox', '--disable-setuid-sandbox'], // Useful for server environments
-        executablePath: executablePath(),
+        args: [
+          '--no-sandbox',
+          '--disable-setuid-sandbox',
+          '--disable-dev-shm-usage', // Essential for Docker/Render resources
+        ],
+        executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || executablePath(),
       },
     });
 
