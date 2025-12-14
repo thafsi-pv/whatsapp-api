@@ -1,0 +1,22 @@
+2025/12/14-13:59:48.372 4cefa3 Reusing MANIFEST /Users/thafseer/Desktop/whatsapp api/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/14-13:59:48.372 4cefa3 Recovering log #78
+2025/12/14-13:59:48.374 4cefa3 Reusing old log /Users/thafseer/Desktop/whatsapp api/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000078.log 
+2025/12/14-13:59:50.398 4cefb7 Level-0 table #83: started
+2025/12/14-13:59:50.401 4cefb7 Level-0 table #83: 30910 bytes OK
+2025/12/14-13:59:50.402 4cefb7 Delete type=0 #78
+2025/12/14-13:59:50.405 4cefa1 Manual compaction at level-0 from '\x00%\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00&\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/14-13:59:50.430 4cefb7 Compacting 1@1 + 1@2 files
+2025/12/14-13:59:50.505 4cefb7 Generated table #84@1: 38814 keys, 1695007 bytes
+2025/12/14-13:59:50.505 4cefb7 Compacted 1@1 + 1@2 files => 1695007 bytes
+2025/12/14-13:59:50.506 4cefb7 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/14-13:59:50.507 4cefb7 Delete type=2 #80
+2025/12/14-13:59:50.507 4cefb7 Delete type=2 #83
+2025/12/14-13:59:53.863 4cefa3 Level-0 table #86: started
+2025/12/14-13:59:53.945 4cefa3 Level-0 table #86: 1073413 bytes OK
+2025/12/14-13:59:53.949 4cefa3 Delete type=0 #82
+2025/12/14-13:59:54.160 4cefa3 Compacting 1@1 + 1@2 files
+2025/12/14-13:59:54.229 4cefa3 Generated table #87@1: 41401 keys, 1809225 bytes
+2025/12/14-13:59:54.229 4cefa3 Compacted 1@1 + 1@2 files => 1809225 bytes
+2025/12/14-13:59:54.230 4cefa3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/14-13:59:54.231 4cefa3 Delete type=2 #86
+2025/12/14-13:59:54.231 4cefa3 Delete type=2 #84
